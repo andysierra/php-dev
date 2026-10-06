@@ -1,0 +1,71 @@
+# ===========================
+# Composer / dependencias
+# ===========================
+vendor/
+composer.phar
+node_modules/
+
+# ===========================
+# Configuración local / secretos
+# ===========================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+auth.json
+
+# ===========================
+# Cachés, logs y temporales
+# ===========================
+*.log
+logs/
+cache/
+tmp/
+.phpunit.result.cache
+.phpunit.cache/
+.php-cs-fixer.cache
+.php_cs.cache
+
+# ===========================
+# MySQL Workbench (backups automáticos)
+# ===========================
+*.mwb.bak
+*.mwb.beforeMigration
+
+# ===========================
+# Editores e IDEs
+# ===========================
+# NetBeans: la configuración privada es local de cada equipo
+**/nbproject/private/
+.idea/
+*.iml
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+*.sublime-workspace
+*.swp
+
+# ===========================
+# R (archivos generados al abrir carpetas con RStudio)
+# ===========================
+.Rhistory
+.RData
+
+# ===========================
+# Claude Code (configuración local)
+# ===========================
+**/.claude/settings.local.json
+
+# ===========================
+# Sistema operativo
+# ===========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+.directory
+.Trash-*
